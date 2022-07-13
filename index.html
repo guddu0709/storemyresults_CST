@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<link href="Css/style.css" rel="stylesheet" type="text/css" />
+    <head>
+        <title>storemyresults.com</title>
+        <link rel="stylesheet" type="text/css" href="Css/stylesheet.css" />
+		<link href="Css/stylebutton.css" rel="stylesheet" type="text/css" />
+		<link href="Css/slides.css" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript" src="js/script1.js"></script>
+		<style>
+body {
+  background-color: #E0FFFF;
+}
+footer {
+  bottom: 0;
+  
+  width: 100%;
+  text-align: center;
+  padding: 3px;
+  background-color:#FF8300;
+  color: white;
+  font-size: 15px;
+}
+</style>
+    </head>
+
+
+
+<body class="s1">
+
+	<div class="whole">
+    	<div class="head">
+        	<div class="headcol1" id="whole">
+            <!-- <img src="img/logo.png" width="350" /></div> -->
+            <h1 style="color:red;text-shadow: 2px 2px #fff000;"><em>Storemyresults.com</em></h1>
+      	</div><!--end of head-->
+
+
+<body>
+
+
+
+
+<div class=	"btn-group1">
+  <button class="button" onclick = "document.location='index1.html'">Home</button>
+
+</div>
+<div class=	"btn-group">
+  <button class="button" onclick = "document.location='login.html'">Login</button>
+
+  <button class="button" onclick = "document.location='signup.html'">No Account ! Sign up here</button>
+
+</div>
+
+
+<br><br><br>
+
+
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+
+  <img src="img/01.jpg" style="width:100%;height:300px" >
+  <div class="text" >Upload your marks.</div>
+</div>
+
+<div class="mySlides fade">
+
+  <img src="img/02.jpg" style="width:100%; height:300px">
+  <div class="text">Safe and secure your marks. </div>
+</div>
+
+<div class="mySlides fade">
+
+  <img src="img/03.png" style="width:100%;height:300px">
+  <div class="text">"AnyTime AnyWhere" Download Your marks </div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+<div class="column1">
+              	<div align="center" class="style11" style="background-color:#FF8300" >Why storemyresults.com</div>
+                <p class="style7" style="font-size:14px">Most of the students will lose or forget marks so it is to store all the marks in the database which makes students to remember easily,can be downloaded and saved in local database in pdf format.</p>
+              </div>
+
+              <div class="column1">
+              	<div align="center" class="style11" style="background-color:#FF8300" >Will our scores will be safe</div>
+                <p class="style7" style="font-size:14px">The website stores all marks secured by the student in all the semester in engineering degree.It is as simple as we can write all the marks which will be safe with us we will not leak any information to others,we will maintain high privacy.</p>
+          </div>
+
+          <div class="column1">
+            	<div align="center" class="style11" style="background-color:#FF8300" >Contact Us</div>
+              <p class="style7" style="font-size:14px">If you are facing any issues regarding your marks and about the mistakes you have done feel free to contact below given information we will surely help you out with it all the possible ways within 2 hours.</p></div>
+
+
+
+
+<body>
+
+<footer>
+  <p>For more information contact<br>
+  <a href="sa-su-ya@gmaill.com" target="_blank">sa-su-ya@gmaill.com</a></p>
+</footer>
+</body>
+</html>
+
